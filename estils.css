@@ -1,4 +1,4 @@
-#numeros {
+#numeros { /*id dels estils dels números resultants */
     display: inline-block;
     color: tomato;
     padding: 15px;
@@ -10,10 +10,10 @@
     font-size: 25px;
     padding: 7px;
 }
-.fons {
+.fons { /*visualització del fons*/
     background-color: lightgoldenrodyellow;
 }
-.titol{
+.titol{ /* característiques del títol de la pàgina*/
     font-size: 25px;
     color: darkblue;
     font-family: 'Times New Roman', Times, serif;
@@ -22,14 +22,14 @@
     margin: 15px;
     text-align: center;
 }
-.subtitol {
+.subtitol { /* característiques del títol de la pàgina*/
     color: darkslateblue;
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
     padding: 7px;
     margin: 15px;
 }
-.boto {
+.boto {  /* característiques del botó que reinicialitza la funció-pàgina*/
 	text-decoration: underline;
 	background-color: darkblue; 
 	font-size: 15px;
