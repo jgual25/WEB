@@ -1,4 +1,4 @@
-#numeros { /*id dels estils dels números resultants */
+/*#numeros { id dels estils dels números resultants 
     display: inline-block;
     color: tomato;
     padding: 15px;
@@ -9,7 +9,7 @@
     font-weight: bold;
     font-size: 25px;
     padding: 7px;
-}
+}*/
 .fons { /*visualització del fons*/
     background-color: lightgoldenrodyellow;
 }
@@ -39,4 +39,17 @@
     display: block;
     padding: 7px;
     margin: 15px;    
+}
+.table{
+text-align: center;
+color: tomato;
+display: contents;
+margin: auto;
+border: ridge darkblue;
+font-family: 'Times New Roman', Times, serif;
+font-kerning: normal;
+font-weight: bold;
+font-size: 20px;
+padding: 7px;
+width: 50%;
 }
