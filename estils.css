@@ -1,0 +1,42 @@
+#numeros {
+    display: inline-block;
+    color: tomato;
+    padding: 15px;
+    margin: 5px;
+    border: ridge darkblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-kerning: normal;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 7px;
+}
+.fons {
+    background-color: lightgoldenrodyellow;
+}
+.titol{
+    font-size: 25px;
+    color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightgray;
+    padding: 7px;
+    margin: 15px;
+    text-align: center;
+}
+.subtitol {
+    color: darkslateblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding: 7px;
+    margin: 15px;
+}
+.boto {
+	text-decoration: underline;
+	background-color: darkblue; 
+	font-size: 15px;
+	color: white;
+	font-family: "Times New Roman", "Times", Serif;
+	-webkit-appearance: button;
+    display: block;
+    padding: 7px;
+    margin: 15px;    
+}

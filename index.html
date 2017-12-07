@@ -1,1 +1,26 @@
-hola
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nombres Primers</title>
+    <script src="funcio.js"></script>
+    <link link rel="stylesheet" type="text/css" href="estils.css">
+</head>
+<body class="fons">
+    <div class="titol">
+        <h1>Vols comprovar quins són els nombres primers?</h1>
+    </div>
+
+    <script>
+    var numero = prompt ("Tria un número:");
+    var x;
+    document.write ("<h3 class='subtitol'>Aquí trobaràs tots els nombres primers corresponents a " + numero + "</h3>");
+    document.write("<input type='button' class= 'boto' value='Tornar-hi' onclick='window.location.href = \"index.html\"'><br>");
+    for (x=2; x<numero; x++) {
+        if (primer (x) ) {
+        document.write ('<div id="numeros">' + x + '</div>');
+        }
+    }
+    </script>
+
+</body>
+</html>
