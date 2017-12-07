@@ -13,13 +13,16 @@
     <script> /*part de la pàgina que defineix: la finestra emergent per a l'elecció del nombre; el subtitol i el botó*/
     var numero = prompt ("Tria un número:");
     var x;
+    document.write(document.write('<link rel="stylesheet" type="text/css" href="css/bootstrap.css">'));
     document.write ("<h3 class='subtitol'>Aquí trobaràs tots els nombres primers corresponents a " + numero + "</h3>");
     document.write("<input type='button' class= 'boto' value='Tornar-hi' onclick='window.location.href = \"index.html\"'><br>");
+    document.write("<table class='table table-hover'>");
     for (x=2; x<numero; x++) { //bucle que defineix si el nombre introduït és un nombre primer i que analitzarà la resta fins arribar a 2 //
         if (primer (x) ) {
-        document.write ('<div id="numeros">' + x + '</div>');
+        document.write ('<tr><td>' + x + '</td></tr>');
         }
     }
+    document.write("</table");
     </script>
 
 </body>
