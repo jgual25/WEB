@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html> <!--JORDI GUAL SANTANDREU - PRACTICA 6 -->
 <head>
-    <title>Nombres Primers</title>
-    <script src="funcio.js"></script>
-    <link link rel="stylesheet" type="text/css" href="estils.css">
+    <title>Nombres Primers</title> <!--Titol de la pestanya -->
+    <script src="funcio.js"></script> <!-- enllaç amb la funció definida per definir els nombre primers-->
+    <link link rel="stylesheet" type="text/css" href="estils.css"> <!--enllaç amb la fulla d'estils CSS definits per als components de la pàgina -->
 </head>
 <body class="fons">
-    <div class="titol">
+    <div class="titol"> <!--Títol principal de la pàgina -->
         <h1>Vols comprovar quins són els nombres primers?</h1>
     </div>
 
-    <script>
+    <script> /*part de la pàgina que defineix: la finestra emergent per a l'elecció del nombre; el subtitol i el botó*/
     var numero = prompt ("Tria un número:");
     var x;
     document.write ("<h3 class='subtitol'>Aquí trobaràs tots els nombres primers corresponents a " + numero + "</h3>");
     document.write("<input type='button' class= 'boto' value='Tornar-hi' onclick='window.location.href = \"index.html\"'><br>");
-    for (x=2; x<numero; x++) {
+    for (x=2; x<numero; x++) { //bucle que defineix si el nombre introduït és un nombre primer i que analitzarà la resta fins arribar a 2 //
         if (primer (x) ) {
         document.write ('<div id="numeros">' + x + '</div>');
         }
